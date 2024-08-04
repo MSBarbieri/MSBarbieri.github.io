@@ -6,7 +6,6 @@ title = "Matheus Barbieri"
 defaultContentLanguage = "en"
 languageCode = "en"
 languageName = "English"
-hasCJKLanguage = false
 
 paginate = 12
 googleAnalytics = ""
@@ -213,7 +212,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     RootMe= ""
 
   [params.page]
-    hiddenFromHomePage = false
+    hiddenFromHomePage = true
     hiddenFromSearch = false
     twemoji = false
     lightgallery = false
@@ -221,7 +220,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     fraction = true
     fontawesome = true
     linkToMarkdown = true
-    rssFullText = true
+    rssFullText = false
     [params.page.toc]
       enable = true
       keepStatic = false
@@ -231,17 +230,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     [params.page.code]
       # whether to show the copy button of the code block
       # 是否显示代码块的复制按钮
-      copy = true
+      copy = false
       # the maximum number of lines of displayed code by default
       # 默认展开显示的代码行数
-      maxShownLines = 50
-      lineNumbers = true
-# add monokai theme
-      theme = "monokai"
+      maxShownLines = 2
     # KaTeX mathematical formulas config (KaTeX https://katex.org/)
     # KaTeX 数学公式配置 (KaTeX https://katex.org/)
     [params.page.math]
-      enable = false
+      enable = true
       # default inline delimiter is $ ... $ and \( ... \)
       # 默认行内定界符是 $ ... $ 和 \( ... \)
       inlineLeftDelimiter = ""
@@ -311,9 +307,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       message = ""
       dismiss = ""
       link = ""
-
-  [params.cdn]
-    data = "jsdelivr.yml"
 
 [sitemap]
   changefreq = "weekly"

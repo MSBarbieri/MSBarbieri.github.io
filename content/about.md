@@ -49,13 +49,6 @@ if you want my resume you can check [HERE](../resume) or get the [PDF](../resume
 Here you gonna see some posts about some things i like to make tests:
 - Distributed Computing
 - DevOps / GitOps
-- Graphics Computing
-- Reverse Engineering
 - Developer Experience
-- Kernel Programming
-
-if you want to know more about the technologies and how i use them, i have my personal [Wiki](./wiki) where all my daily basis documentation go, there have infos about:
-- languages
-- frameworks
-- personal repos
-- configurations
+- Authomation
+- Networking
